@@ -77,7 +77,8 @@ export default function App() {
         <div className="color-button-wrapper">
             <button id="colorPickerButton" className="color-button">Pick Color</button>
             <input id="colorPicker" type="color" className="hidden-color-picker" onInput={changeColor} />
-        </div>      </div>
+        </div>      
+      </div>
       <Grid grid={grid} onClick={onClickCell} />
     </div>
   );
